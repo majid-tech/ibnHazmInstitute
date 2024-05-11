@@ -43,13 +43,13 @@
 }
 
 .program-card {
-    background-color: #f9f9f9; /* Adjust as needed */
+    background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
     display: inline-block;
-    width: 300px; /* Adjust as needed */
+    width: 300px;
     vertical-align: top;
     text-align: left;
 }
@@ -67,6 +67,47 @@
 .program-button {
     padding: 8px 16px;
     font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.program-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* CSS for events section */
+.events {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.event {
+    margin-bottom: 20px;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.event-date {
+    font-size: 0.9rem;
+    color: #555; /* Adjust as needed */
+}
+
+.event-button {
+    padding: 8px 16px;
+    font-size: 1rem;
     background-color: #007bff; /* Adjust as needed */
     color: #fff; /* Adjust as needed */
     border: none;
@@ -75,6 +116,60 @@
     transition: background-color 0.3s;
 }
 
-.program-button:hover {
+.event-button:hover {
     background-color: #0056b3; /* Adjust as needed */
+}
+
+
+/* CSS for resource center section */
+.resource-center {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resource-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.resource-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.resource-link:hover {
+    background-color: #0056b3; /* Adjust as needed */
+}
+
+/* CSS for footer section */
+.footer {
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #fff; /* Adjust as needed */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 10px;
 }
